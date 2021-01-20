@@ -30,8 +30,6 @@
 		C935D1AE24E1D53100558ACC /* rpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935D1AD24E1D53100558ACC /* rpsTests.swift */; };
 		C935D1B924E1D53100558ACC /* rpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935D1B824E1D53100558ACC /* rpsUITests.swift */; };
 		C96DFA0D24E30376001C9B75 /* icons8-restart-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C96DFA0C24E30376001C9B75 /* icons8-restart-32.png */; };
-		C9C6FA0F24F05EC60016E055 /* HomeUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FA0E24F05EC60016E055 /* HomeUIViewController.swift */; };
-		C9C6FA1124F061580016E055 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FA1024F061580016E055 /* AboutViewController.swift */; };
 		C9C6FA1324F0617C0016E055 /* ScoreBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FA1224F0617C0016E055 /* ScoreBoardViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,8 +80,6 @@
 		C935D1B824E1D53100558ACC /* rpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpsUITests.swift; sourceTree = "<group>"; };
 		C935D1BA24E1D53100558ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C96DFA0C24E30376001C9B75 /* icons8-restart-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-restart-32.png"; sourceTree = "<group>"; };
-		C9C6FA0E24F05EC60016E055 /* HomeUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeUIViewController.swift; path = rps/ViewControllers/HomeUIViewController.swift; sourceTree = SOURCE_ROOT; };
-		C9C6FA1024F061580016E055 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = rps/Storyboards/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
 		C9C6FA1224F0617C0016E055 /* ScoreBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,9 +113,7 @@
 			children = (
 				C9C6FA1224F0617C0016E055 /* ScoreBoardViewController.swift */,
 				00BA289024F2762200E2702E /* ScoreBoardTableViewCell.swift */,
-				C9C6FA1024F061580016E055 /* AboutViewController.swift */,
 				C935D19A24E1D52B00558ACC /* ViewController.swift */,
-				C9C6FA0E24F05EC60016E055 /* HomeUIViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -361,8 +355,6 @@
 			files = (
 				C935D19B24E1D52B00558ACC /* ViewController.swift in Sources */,
 				C935D19724E1D52B00558ACC /* AppDelegate.swift in Sources */,
-				C9C6FA0F24F05EC60016E055 /* HomeUIViewController.swift in Sources */,
-				C9C6FA1124F061580016E055 /* AboutViewController.swift in Sources */,
 				C9C6FA1324F0617C0016E055 /* ScoreBoardViewController.swift in Sources */,
 				C935D19924E1D52B00558ACC /* SceneDelegate.swift in Sources */,
 				00BA289124F2762200E2702E /* ScoreBoardTableViewCell.swift in Sources */,
